@@ -53,7 +53,16 @@ The test automatically:
 3. Navigates to Version Control → Changelists
 4. Enables "Create changelists automatically"
 5. Verifies the checkbox is selected
+```kotlin
+> Task :test
+UiTestWithDriverCheckbox > testChangelistCheckbox() PASSED
+```
 6. Clicks OK
+
+Sample display:
+<p align="center">
+  <img src="screenshot/screenshot20260507.gif" width="700"/>
+</p>
 
 ## Key APIs Used
 
