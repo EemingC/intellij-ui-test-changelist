@@ -59,7 +59,7 @@ The test automatically:
 
 ```kotlin
 driver.invokeAction("ShowSettings", now = true)
-settings.settingsTree.clickPath("Version Control", ...)
+settingsDialog.settingsTree.clickPath("Version Control", ...)
 settingsDialog.checkBox(...)
 assertTrue(checkbox.isSelected())
 ```
